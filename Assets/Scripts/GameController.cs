@@ -38,6 +38,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         healthText.text = currHealth.ToString("0");
     }
+
     public void ResetEnemyCount()
     {
         enemiesRemaining = 10;
